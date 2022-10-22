@@ -40,17 +40,3 @@ else:
     for x, y in b.items():
         print(f"{x} * {y} coins")
     print(f"\nNumber of minimum coin needed: {flag1}")
-
-# while note != 0:
-#     denominator = coins[count]
-#     value = note / denominator
-#     if value >= 1:
-#         print(f"{denominator} * {int(value)} coins")
-#     note = note % denominator
-#     flag = flag + int(value)
-#     count = count - 1
-#     if count < 0 and note is not 0:
-#         print(f"The remaining Currency value: {note}")
-#         break
-#
-# print(f"\nNumber of minimum coin needed: {flag}")
